@@ -1,7 +1,7 @@
 # Atividade 1
 
-- [Currículo] (https://rajguerra.github.io/curriculo.html)
-- [Tabela de Cursos] (https://rajguerra.github.io/tabelaCursos.html)
-- [Formulário] (https://rajguerra.github.io/ormulário.html)
-- [Wiki] (https://rajguerra.github.io/wiki.html)
-- [Barbearia] (https://rajguerra.github.io/home.html)
+- [Currículo] (https://rajguerra.github.io/Atividade1/curriculo.html)
+- [Tabela de Cursos] (https://rajguerra.github.io/Atividade1/tabelaCursos.html)
+- [Formulário] (https://rajguerra.github.io/Atividade1/formulário.html)
+- [Wiki] (https://rajguerra.github.io/Atividade1/wiki.html)
+- [Barbearia] (https://rajguerra.github.io/Atividade1/home.html)
