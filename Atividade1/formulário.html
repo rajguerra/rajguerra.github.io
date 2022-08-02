@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Informações Pessoais</h1>
+    <form method="post">
+        <fieldset>
+            <legend>Cadastro do Cliente</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                 <input type="nome" name="nome" placeholder="Digite seu nome" style="width: 350px;">
+            </div>
+            <div>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" value="Masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" value="Feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" placeholder="Digite sua idade" style="width: 110px;">
+            </div>
+            <div>
+                <label for="endereço">Endereço:</label>
+                <input type="text" name="cidade" placeholder="Digite o endereço" style="width: 450px;">
+            </div>
+            <div>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" placeholder="Digite a cidade" style="width: 250px;">
+            </div>            
+            <div>
+                <label for="estado">Estado:</label>
+                <select name="estado">
+                    <option>UF</option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select>
+            </div>
+            <div>
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" placeholder="XXXXX-XXX" style="width: 100px;">
+            </div>
+            <div>
+                <label for="telRes">Tel/Res:</label>
+                <input type="tel" name="telRes" placeholder="(99) 99999-9999" style="width: 120px;">
+            </div>
+            <div>
+                <label for="telCel">Tel/Cel:</label>
+                <input type="tel" name="telCel" placeholder="(99) 99999-9999" style="width: 120px;">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Digite o endereço de email" style="width: 350px;">
+            </div>
+        </fieldset>
+        <button formaction="http://localhost:3003/usuarios">Incluir</button>
+    </form>
+    <style>
+        fieldset{
+            width: 600px;
+        }
+        div{
+            margin: 10px auto 10px auto;
+        }
+       label{
+        width: 65px;
+        display: inline-block;
+       }
+       button{
+        margin: 10px auto auto 2px;
+       }
+      
+    </style>
+</body>
+</html>
