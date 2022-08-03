@@ -5,3 +5,7 @@
 - [Formulário](https://rajguerra.github.io/Atividade1/formulário.html)
 - [Wiki](https://rajguerra.github.io/Atividade1/wiki.html)
 - [Barbearia](https://rajguerra.github.io/Atividade1/home.html)
+
+# Atividade Prática 1
+
+-[Atividade Seletores](https://rajguerra.github.io/AtividadePratica1/atividadeSeletores.html)
