@@ -8,4 +8,4 @@
 
 # Atividade Prática 1
 
--[Atividade Seletores](https://rajguerra.github.io/AtividadePratica1/atividadeSeletores.html)
+- [Atividade Seletores](https://rajguerra.github.io/AtividadePratica1/atividadeSeletores.html)
