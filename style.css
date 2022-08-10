@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(164, 230, 247);
+}
+
+main{
+    background-color: rgb(93, 209, 230);
+    padding: 10px;
+    width: 1000px;
+    margin: auto;
+}
+main h2{
+    padding-bottom: 15px;
+}
+
+section{
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+footer{
+    background-color: rgb(82, 161, 252);
+    text-align: center;
+    padding: 10px;
+}
+footer > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}
