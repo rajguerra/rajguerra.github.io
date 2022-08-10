@@ -10,6 +10,6 @@
 
 - [Atividade Seletores](https://rajguerra.github.io/AtividadePratica1/atividadeSeletores.html)
 
-#Atividade Prática 3
+# Atividade Prática 3
 
 - [Tributo MC Kevin](https://rajguerra.github.io/index.html)
