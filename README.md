@@ -13,3 +13,8 @@
 # Atividade Prática 3
 
 - [Tributo MC Kevin](https://rajguerra.github.io/AtividadePratica3/index.html)
+
+# Atividade Prática 4
+
+-[Loja](https://rajguerra.github.io/atividadePratica4/loja/exercicio.html)
+-[Pizaria](https://rajguerra.github.io/atividadePratica4/pizaria/exercicio.html)
