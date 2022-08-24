@@ -18,3 +18,7 @@
 
 - [Loja](https://rajguerra.github.io/atividadePratica4/loja/exercicio.html)
 - [Pizaria](https://rajguerra.github.io/atividadePratica4/pizaria/exercicio.html)
+
+# Atividade Prática 5
+
+- [Loja responsiva](https://rajguerra.github.io/atividadePratica5/loja/exercicio.html)
