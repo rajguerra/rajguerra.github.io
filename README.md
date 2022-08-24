@@ -22,5 +22,3 @@
 # Atividade Prática 5
 
 - [Loja responsiva](https://rajguerra.github.io/atividadePratica5/loja/exercicio.html)
-
-teste

@@ -9,8 +9,11 @@
   <h1>Loja de Roupas e Acessórios</h1>
 </div>
 
-<div class="topnav">
-	<img id="menu" src="imagens/menu.png" alt="menu">
+<div class="menu-bar">
+	<img id="menu" src="imagens/menu.png" alt="menu" onclick="clickMenu()">
+</div>
+
+<div id="itens" class="topnav">
   <a href="#">Home</a>
   <a href="#">Roupas</a>
   <a href="#">Acessórios</a>
@@ -18,7 +21,7 @@
 </div>
 
 <div class="row">
-	<div>
+	<div class="produtos">
 		<div class="sellcard">
 			<img src="imagens/jaqueta.jpg">
 			<p class="descricao">Jaqueta de couro - Roupa</p>
@@ -45,6 +48,14 @@
 		</div>
 	</div>  
 </div>
-
+<script>
+	function clickMenu(){
+		if(itens.style.display == 'block'){
+			itens.style.display = 'none'
+		}else{
+			itens.style.display = 'block'
+		}
+	}
+</script>
 </body>
 </html>

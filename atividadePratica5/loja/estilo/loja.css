@@ -8,7 +8,7 @@
     
     body{
         background-color: beige;
-        max-width: 1500px;
+        max-width: 1200px;
         margin: auto;
     }
     
@@ -19,7 +19,9 @@
         font-size: 1.5em;
     }
     
-    
+    .menu-bar{
+        display: none;
+    }
     .topnav{
         background-color: black;
         padding: 10px;
@@ -54,6 +56,10 @@
         vertical-align: middle;
     }
     
+    .produtos{
+        display: flex;
+    }
+
     .sellcard{
         display: inline-block;
         width: 23.40%;
@@ -107,17 +113,30 @@
         background-color: black;
         padding: 10px;
         width: 100%;
-        vertical-align: middle;
+        display: none;
     }
     
+    .menu-bar{
+        background-color: black;
+        padding: 10px;
+    }
+
     #menu{
         filter: invert(100%);
+        height: 30px;
+        display: block;
+        margin: auto;
+    }
+
+    #menu:hover{
+        cursor: pointer;
     }
 
     .topnav a{
         text-align: center;
         text-decoration: none;
         padding: 10px;
+        margin: 5px;
         color: #f2f2f2;
         display: block;
         font-size: 1.5em;
@@ -130,7 +149,6 @@
         transition: .2s;
         color: black;
         border-radius: 5px;
-        display: block;
     }
     
     .topnav img{
@@ -139,14 +157,14 @@
     }
     
     .sellcard{
-        display: inline-block;
-        width: 23.40%;
-        margin: 10px;
+        position: relative;
+        margin: auto;
         text-align: center;
     }
     .sellcard img{
-        width: 80%;
+        width: 70%;
         margin: auto;
+        padding: 10px;
     }
     
     p.descricao{
