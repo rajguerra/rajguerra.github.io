@@ -25,4 +25,4 @@
 
 # Atividade Prática 6
 
-- [Obra Artistica](ttps://rajguerra.github.io/atividadePratica6/Obra-Artistica.html)
+- [Obra Artistica](https://rajguerra.github.io/atividadePratica6/Obra-Artistica.html)
