@@ -22,3 +22,7 @@
 # Atividade Prática 5
 
 - [Loja responsiva](https://rajguerra.github.io/atividadePratica5/loja/exercicio.html)
+
+# Atividade Prática 6
+
+- [Obra Artistica](ttps://rajguerra.github.io/atividadePratica6/Obra-Artistica.html)
