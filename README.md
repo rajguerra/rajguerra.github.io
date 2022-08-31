@@ -29,4 +29,4 @@
 
 # Atividade Prática 7
 
-- [Obra Artistica](https://rajguerra.github.io/atividadePratica7/index.html)
+- [Alurinha](https://rajguerra.github.io/atividadePratica7/index.html)
