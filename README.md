@@ -26,3 +26,7 @@
 # Atividade Prática 6
 
 - [Obra Artistica](https://rajguerra.github.io/atividadePratica6/Obra-Artistica.html)
+
+# Atividade Prática 6
+
+- [Obra Artistica](https://rajguerra.github.io/atividadePratica7/index.html)
