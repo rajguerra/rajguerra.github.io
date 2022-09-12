@@ -30,3 +30,7 @@
 # Atividade Prática 7
 
 - [Alurinha](https://rajguerra.github.io/atividadePratica7/index.html)
+
+# Atividade Prática 8
+
+- [Teclado Numérico](https://rajguerra.github.io/atividadePratica8/index.html)
