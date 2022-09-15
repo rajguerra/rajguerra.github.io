@@ -1,9 +1,12 @@
+@charset "UTF-8";
+
 .destaques{
     display: grid;
     text-align: center;
-    grid-template: repeat(3, 250px) / repeat(4, 250px);
+    grid-template: repeat(3, 250px) / repeat(4, auto);
     gap: 5px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .destaques__principal{
@@ -51,7 +54,7 @@
 
 .destaques__categorias___lista{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
     grid-template-rows: 125px 125px;
 }
 
@@ -82,9 +85,11 @@
 }
 
 .destaques__categorias___item:hover{
-    margin: 2px;
+    width: 98%;
+    height: 98%;
+    justify-self: center;
+    align-self: center;
     background-color: rgb(227, 236, 243);
-    cursor: pointer;
 }
 .destaques__categorias___link{
     color: rgb(63, 62, 62);
