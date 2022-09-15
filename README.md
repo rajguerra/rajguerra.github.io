@@ -37,4 +37,4 @@
 
 # Atividade Prática 9
 
-- [Gamer Store](https://rajguerra.github.io/atividadePratica8/index.html)
+- [Gamer Store](https://rajguerra.github.io/atividadePratica9/index.html)
