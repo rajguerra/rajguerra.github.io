@@ -1,6 +1,12 @@
 .ativo{
     border-bottom: solid 3px blue;
 }
+
+.menu__link{
+    color: rgb(63, 62, 62);
+    padding: 10px;
+}
+
 .menu__link:hover{
     background: #dddada;
     border-radius: 10px;

@@ -6,16 +6,12 @@
 }
 
 .cabecalho{
-    padding: 10px;
+    margin-top: 20px;
+    padding: 10px 10px 10x 0px;
 }
 
-.cabecalho a{
-    color: rgb(63, 62, 62);
-    padding: 10px;
-}
- 
 .conteudo {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .rodape {
