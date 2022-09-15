@@ -15,8 +15,14 @@
 }
  
 .conteudo {
-    
+    margin-top: 10px;
 }
 
 .rodape {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
 }
+  
+  

@@ -34,3 +34,7 @@
 # Atividade Prática 8
 
 - [Teclado Numérico](https://rajguerra.github.io/atividadePratica8/index.html)
+
+# Atividade Prática 9
+
+- [Gamer Store](https://rajguerra.github.io/atividadePratica8/index.html)
