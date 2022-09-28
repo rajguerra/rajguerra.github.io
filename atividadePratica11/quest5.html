@@ -9,7 +9,15 @@
 <body>
     <script>
         const cent = Number(prompt('Digite uma centena:'))
-        
+        if(cent > 100 && cent < 999){
+            const unidade = cent%10
+            const dezena = ((cent%100) - unidade)
+            const centena = Math.floor(cent/100)
+            const centInvert = (unidade * 100) + dezena + centena
+            alert(`Centena: ${cent}\nCentena invertida: ${centInvert}`)
+        }else{
+            alert('Este valor não é uma centena')
+        }
     </script>
 </body>
 </html>
