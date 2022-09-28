@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Barbearia Tradição</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome e sobrenome</label><br>
+        <input class="campo" type="text" name="nome"><br>
+        <label for="email">Email</label><br>
+        <input class="campo" type="email" name="email" placeholder="seuemail@dominio.com"><br>
+        <label for="telefone">Telefone</label><br>
+        <input class="campo" type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX"><br>
+        <label for="mensagem">Mensagem</label><br>
+        <textarea name="mensagem" cols="30" rows="10"></textarea><br><br>
+        <fieldset>
+            <legend>Como prefere o nosso contato?</legend>
+            <input type="radio" name="contato" value="email">
+            <label for="email">Email</label><br>
+            <input type="radio" name="contato" value="telefone">
+            <label for="telefone">Telefone</label><br>
+            <input type="radio" name="contato" value="whatsapp">
+            <label for="whatsapp">Whatsapp</label>
+        </fieldset>
+        <fieldset>
+            <legend>Qual horário prefere ser atendido?</legend>
+            <select name="horario">
+                <option value="manhã">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+        </fieldset><br>
+        <input type="checkbox" name="novidade" id="check">
+        <label for="novidade">Gostaria de receber nossas novidades por email?</label><br><br>
+        <button formaction="/home.html">Enviar formulário</button><br><br>
+    </form>
+    <table>
+        <thead>
+            <th>Dia</th>
+            <th>Horário</th>
+        </thead>
+        <tr>
+            <td>Segunda</td>
+            <td>8h~20h</td>
+        </tr>
+        <tr>
+            <td>Quarta</td>
+            <td>8h~20h</td>
+        </tr>
+        <tr>
+            <td>Sexta</td>
+            <td>8h~20h</td>
+        </tr>
+    </table>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            padding: 6px;
+            border-spacing: 1px;
+            
+        }
+        th{ 
+            color: white;
+            background: gray;
+            border: 1px solid black;
+        }
+        table{
+            border: none;
+            padding-left: 0;
+        }
+        input{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .campo, textarea{
+            width: 400px;
+        }
+        .campo{
+            border: 1px solid gray;
+            border-radius: 3px;
+            height: 30px;
+        }
+    </style>
+</body>
+</html>
