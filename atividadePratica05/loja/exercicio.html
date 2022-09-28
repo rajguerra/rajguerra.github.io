@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Meu primeiro e-comemerce</title>
+	<link rel="stylesheet" href="estilo/loja.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Loja de Roupas e Acessórios</h1>
+</div>
+
+<div class="menu-bar">
+	<img id="menu" src="imagens/menu.png" alt="menu" onclick="clickMenu()">
+</div>
+
+<div id="itens" class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Roupas</a>
+  <a href="#">Acessórios</a>
+  <a id="carrinho" href="#"><img src="imagens/compra.png" alt="Carrinho de compras"><span>Carrinho de compras</span></a>
+</div>
+
+<div class="row">
+	<div class="produtos">
+		<div class="sellcard">
+			<img src="imagens/jaqueta.jpg">
+			<p class="descricao">Jaqueta de couro - Roupa</p>
+			<p class="valor">R$ 279,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+		<div class="sellcard">
+			<img src="imagens/bone.jpg">
+			<p class="descricao">Boné - Acessório</p>
+			<p class="valor">R$ 79,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+		<div class="sellcard">
+			<img src="imagens/jaqueta.jpg">
+			<p class="descricao">Jaqueta de couro - Roupa</p>
+			<p class="valor">R$ 279,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+		<div class="sellcard">
+			<img src="imagens/bone.jpg">
+			<p class="descricao">Boné - Acessório</p>
+			<p class="valor">R$ 79,00</p>
+			<p class="compra">COMPRAR</p>
+		</div>
+	</div>  
+</div>
+<script>
+	function clickMenu(){
+		if(itens.style.display == 'block'){
+			itens.style.display = 'none'
+		}else{
+			itens.style.display = 'block'
+		}
+	}
+</script>
+</body>
+</html>

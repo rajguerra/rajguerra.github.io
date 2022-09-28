@@ -1,43 +1,43 @@
 # Atividade Prática 1
 
-- [Currículo](https://rajguerra.github.io/atividadePratica1/curriculo.html)
-- [Tabela de Cursos](https://rajguerra.github.io/atividadePratica1/tabelaCursos.html)
-- [Formulário](https://rajguerra.github.io/atividadePratica1/formulário.html)
-- [Wiki](https://rajguerra.github.io/atividadePratica1/wiki.html)
-- [Barbearia](https://rajguerra.github.io/atividadePratica1/home.html)
+- [Currículo](https://rajguerra.github.io/atividadePratica01/curriculo.html)
+- [Tabela de Cursos](https://rajguerra.github.io/atividadePratica01/tabelaCursos.html)
+- [Formulário](https://rajguerra.github.io/atividadePratica01/formulário.html)
+- [Wiki](https://rajguerra.github.io/atividadePratica01/wiki.html)
+- [Barbearia](https://rajguerra.github.io/atividadePratica01/home.html)
 
 # Atividade Prática 2
 
-- [Atividade Seletores](https://rajguerra.github.io/atividadePratica2/atividadeSeletores.html)
+- [Atividade Seletores](https://rajguerra.github.io/atividadePratica02/atividadeSeletores.html)
 
 # Atividade Prática 3
 
-- [Tributo MC Kevin](https://rajguerra.github.io/atividadePratica3/index.html)
+- [Tributo MC Kevin](https://rajguerra.github.io/atividadePratica03/index.html)
 
 # Atividade Prática 4
 
-- [Loja](https://rajguerra.github.io/atividadePratica4/loja/exercicio.html)
-- [Pizaria](https://rajguerra.github.io/atividadePratica4/pizaria/exercicio.html)
+- [Loja](https://rajguerra.github.io/atividadePratica04/loja/exercicio.html)
+- [Pizaria](https://rajguerra.github.io/atividadePratica04/pizaria/exercicio.html)
 
 # Atividade Prática 5
 
-- [Loja responsiva](https://rajguerra.github.io/atividadePratica5/loja/exercicio.html)
+- [Loja responsiva](https://rajguerra.github.io/atividadePratica05/loja/exercicio.html)
 
 # Atividade Prática 6
 
-- [Obra Artistica](https://rajguerra.github.io/atividadePratica6/Obra-Artistica.html)
+- [Obra Artistica](https://rajguerra.github.io/atividadePratica06/Obra-Artistica.html)
 
 # Atividade Prática 7
 
-- [Alurinha](https://rajguerra.github.io/atividadePratica7/index.html)
+- [Alurinha](https://rajguerra.github.io/atividadePratica07/index.html)
 
 # Atividade Prática 8
 
-- [Teclado Numérico](https://rajguerra.github.io/atividadePratica8/index.html)
+- [Teclado Numérico](https://rajguerra.github.io/atividadePratica08/index.html)
 
 # Atividade Prática 9
 
-- [Gamer Store](https://rajguerra.github.io/atividadePratica9/index.html)
+- [Gamer Store](https://rajguerra.github.io/atividadePratica09/index.html)
 
 # Atividade Prática 10
 
