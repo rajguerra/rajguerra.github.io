@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 6</title>
+</head>
+<body>
+    <h1>Verificador de números perfeitos!</h1>
+    <p>Número
+        <input type="text" id="num">
+        <input type="button" value="Verificar" id="verificar">
+    </p>
+    <pre id="resposta"></pre>
+    <script>
+        
+        function numPerfeito(){
+            var num = Number(document.getElementById('num').value)
+            var soma = 0
+            var divisores = []
+            var i
+            for(i = 0; i <= num/2; i++){
+                if(num % i == 0){
+                    divisores.push(i)
+                    soma += i
+                }
+            }
+
+            if(soma == num){
+                console.log(divisores)
+                document.getElementById('resposta').innerHTML = num + ' É um número perfeito!\nDivisores: ' + divisores
+            }else{
+                document.getElementById('resposta').innerHTML = num + ' não é um número perfeito'
+            }
+        }
+
+        var verificar = document.getElementById('verificar')
+        verificar.addEventListener('click', numPerfeito)
+    </script>
+</body>
+</html>

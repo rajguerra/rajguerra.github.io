@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+</head>
+<body>
+    <h1>Verificador de ano de Copa!</h1>
+    <p>Ano:
+        <input type="text" id="ano" placeholder="Digite o ano">
+        <input type="button" id="verificar" value="Verificar">
+    </p>
+    <pre id="resposta"></pre>
+    <script>
+        function anoDeCopa(){
+            var ano = Number(document.getElementById('ano').value)
+            var inicio = 1930
+            var aux = 0
+            var resposta
+            if(ano < inicio){
+                aux = 1
+            }else{
+                while( inicio <= ano){
+                    if(inicio == ano){
+                        aux = 2
+                       break
+                    }
+                    inicio = inicio + 4
+                }
+            }
+
+            if(aux == 1){
+                resposta = 'Não havia copa antes de 1930'
+            }else if(aux == 2 && ano != 1942 && ano != 1946){
+                resposta = ano + ' é ano de copa'
+            }else{
+                resposta = ano + ' não é ano de copa'
+            }
+            document.getElementById('resposta').innerHTML = resposta
+        }
+
+        var verificar = document.getElementById('verificar')
+        verificar.addEventListener('click', anoDeCopa)
+    </script>
+</body>
+</html>

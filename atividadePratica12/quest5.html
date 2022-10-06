@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5</title>
+</head>
+<body>
+    <p>Valor da conta:
+        <input type="text" id="valor" >
+    </p>
+    <p>Quantas vezes:
+        <input type="text" id="vezes" >
+    </p>
+    <p><input type="button" value="Calcular" id="bot"></p>
+    <pre id="resp"></pre>
+    <script>
+        function parcelar(){
+            var valor = Number(document.getElementById('valor').value)
+            var parcela = Number(document.getElementById('vezes').value)
+            var final = valor / parcela
+            var cent = final - (Math.floor(final))
+            var parcelas = []
+            for(var i = 0; i < parcela-1; i++){
+                parcelas.push(final - cent)
+            }
+            parcelas.push(final + (cent*(parcela-1)))
+            document.getElementById('resp').innerHTML  = parcelas
+        }
+
+        var calcular = document.getElementById('bot')
+        calcular.addEventListener('click', parcelar)
+    </script>
+</body>
+</html>

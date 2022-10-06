@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var valorTotal = prompt("Digite o valor total da compra")
+            parcela = Number(prompt("Digite quantas vezes ele quer parcelar: \n(Maximo 6 vezes)"))
+            if (parcela <= 6) {
+                let valorParcela = (valorTotal/parcela)
+                if (valorParcela >= 20) {
+                    alert("Ele pagara em " + parcela + " vezes de " + valorParcela)
+                }else{
+                    alert("O valor da parcela ta mt baixo :(")
+                }
+                
+            }if(parcela > 6){
+                alert("Não pode :(")
+            }
+        
+    </script>
+</body>
+</html>
