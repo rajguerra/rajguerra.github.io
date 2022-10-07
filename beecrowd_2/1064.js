@@ -14,4 +14,4 @@ for(i = 0; i<lines.length; i++){
 
 var media = soma / valPos
 
-console.log(`${valPos} valores positivos\n${media}`)
+console.log(`${valPos} valores positivos\n${media.toFixed(1)}`)
