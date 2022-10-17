@@ -9,24 +9,29 @@
 <body>
     <script>
         const alunos = []
-        maior = -1
         do{
             const nome = prompt('Informe o nome do aluno. Digite \'Fim\' para sair')
-            if(nome == 'Fim'){
+            if(nome == 'Fim' || nome == 'fim'){
                 break
             }
             const nota = Number(prompt('Entre com a nota do aluno: '))
             alunos.push({nome, nota})
-            if(nota > maior){
-                maior = nota
-            }
-            alert('Ok! Aluno cadastrado')
-        }while(true)
         
+        }while(true)
+
+        const maior = alunos.reduce((a,b) => Math.max(a, b.nota), 0)
+        alert(`A maior nota foi: ${maior.toFixed(1)}`)
+
         if(maior >= 7){
-            
+           const destaques = alunos.filter(aluno => aluno.nota == maior)
+           for(const destaque of destaques){
+            alert(`${destaque.nome}`)
+           }
+        }else{
+            alert('Não ha alunos em destaque na turma')
         }
 
+        
     </script>
 </body>
 </html>
