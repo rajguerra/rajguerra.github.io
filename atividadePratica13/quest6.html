@@ -7,6 +7,34 @@
     <title>Questão 6</title>
 </head>
 <body>
-    
+    <script>
+        const saques = []
+        do{
+            const valor = Number(prompt('Informe o valor do saque. Digite \'0\' para sair'))
+            if(valor == 0){
+                break
+            }
+            saques.push(valor)
+            if(valor % 10 == 0){
+                alert("Saque válido")
+            }else{
+                alert("Valor inválido")
+            }
+        }while(true)
+
+        msg = "Saques Válidos\n"
+
+        const validos = saques.filter(saque => saque % 10 ==0)
+        for(const saque of validos){
+            msg += `${saque.toFixed(2)}\n`
+        }
+        const sacado = validos.reduce((total, saque) => total + saque,0)
+        msg += `\nTotal dos saques: R$ ${sacado.toFixed(2)}\n`
+
+        const invalidos = saques.length - validos.length
+        msg += `Numero de saques inválidos: ${invalidos}`
+
+        alert(msg)
+    </script>
 </body>
 </html>

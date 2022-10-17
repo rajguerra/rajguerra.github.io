@@ -20,17 +20,18 @@
         }while(true)
 
         const maior = alunos.reduce((a,b) => Math.max(a, b.nota), 0)
-        alert(`A maior nota foi: ${maior.toFixed(1)}`)
+        msg = `A maior nota foi ${maior.toFixed(1)}\n\n`
 
         if(maior >= 7){
            const destaques = alunos.filter(aluno => aluno.nota == maior)
            for(const destaque of destaques){
-            alert(`${destaque.nome}`)
+            msg += ` - ${destaque.nome}\n`
            }
         }else{
-            alert('Não ha alunos em destaque na turma')
+            msg += 'Não ha alunos em destaque na turma'
         }
 
+        alert(msg)
         
     </script>
 </body>

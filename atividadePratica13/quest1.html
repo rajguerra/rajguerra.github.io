@@ -15,13 +15,14 @@
             notas.push(Number(prompt(`Nota do ${i+1}º aluno:`)))
         }
         soma = 0
-
+        msg = ""
         for(i = 0; i<5; i++){
-            alert(`Aluno: ${nomes[i]} --- Nota: ${notas[i].toFixed(1)}`)
+            msg += `Aluno: ${nomes[i]} --- Nota: ${notas[i].toFixed(1)}\n`
             soma += notas[i]
         }
         var media = soma / 5
-        alert(`Média: ${media.toFixed(1)}`)
+        msg += `\nMédia: ${media.toFixed(1)}`
+        alert(msg)
     </script>
 </body>
 </html>
