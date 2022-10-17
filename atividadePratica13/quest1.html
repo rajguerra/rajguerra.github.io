@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+</head>
+<body>
+    <script>
+        var nomes = []
+        var notas = []
+        for(i = 0; i < 5; i++){
+            nomes.push(prompt(`Nome do ${i+1}º aluno: `))
+            notas.push(Number(prompt(`Nota do ${i+1}º aluno:`)))
+        }
+        soma = 0
+
+        for(i = 0; i<5; i++){
+            alert(`Aluno: ${nomes[i]} --- Nota: ${notas[i].toFixed(1)}`)
+            soma += notas[i]
+        }
+        var media = soma / 5
+        alert(`Média: ${media.toFixed(1)}`)
+    </script>
+</body>
+</html>
