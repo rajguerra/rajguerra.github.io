@@ -2,7 +2,7 @@ var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
 var num = parseFloat(lines[0])
-
+console.log(num)
 if(num >= 0 && num <= 25){
     console.log('Intervalo [0,25]')
 }else if(num > 25 && num <= 50){
