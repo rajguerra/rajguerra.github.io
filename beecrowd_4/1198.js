@@ -1,16 +1,15 @@
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = input.split('\n');
 
-const { EOF } = require('dns');
-
-var i = 0
-
-while(lines[i] != EOF){
-    var valores = lines[i].split(" ")
+while(lines.length > 0){
+    var linha = lines.shift()
+    var valores = linha.split(" ")
     var h = Number(valores[0])
     var o = Number(valores[1])
     
-    var dif = Math.abs(h-o)
-    console.log(dif)
-    i++
+    if(h>o){
+        console.log(h-o)
+    }else{
+        console.log(o-h)
+    }
 }
