@@ -8,5 +8,7 @@ while(lines.length > 0){
     var t = Number(valores[1])
     
     var desloc = v * 2 * t
-    console.log(desloc)
+    if((v>=-100 && v <=100) && (t >= 0 && t<=200)){
+        console.log(desloc)
+    }
 }
